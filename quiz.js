@@ -108,5 +108,5 @@ window.onload = loadQuestion;
 
 
 function restartQuiz(){
-    window.location="quiz.html";
+    window.location="index.html";
 }
