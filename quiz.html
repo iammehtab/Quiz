@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QUIZZ</title>
+    <link href="quiz.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="heading">
+    <h2>QUIZZZ</h2>
+    <p>Improve your Iq with QUIZZZ</p>
+</div>
+
+<section class="Quiz-container" id="quiz-container"> <!-- ✅ added ID -->
+    <h2 id="question">Question goes here...</h2> <!-- ✅ added ID -->
+    <div class="options" id="options"></div> <!-- ✅ added ID -->
+    <button onclick="nextQuestion()">NEXT</button> <!-- ✅ add onclick -->
+</section>
+
+<div id="result" style="display: none">
+    <h2>Your Score: <span id="score"></span></h2>
+    <button onclick="restartQuiz()">Restart</button> <!-- Optional: Restart -->
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
